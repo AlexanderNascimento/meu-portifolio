@@ -129,6 +129,7 @@
   background-color: gray;
   display: flex;
   align-items: center;
+  margin-bottom: 20px;
 }
 .link{
   padding: 1px;

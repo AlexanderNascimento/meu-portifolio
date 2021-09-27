@@ -10,7 +10,9 @@ export default function Home(Props) {
     <>
     <Header img={Props.info.avatar_url} login={Props.info.login}></Header>
     <div className={styles.container}>
+    <img src={Props.info.avatar_url} alt={Props.info.login} className='rounded' />
       <h1>{Props.info.login}</h1>
+      <p>{Props.info.bio}</p>
       <h1>HABILIDADES</h1>
     <div className={styles.card}>
       
